@@ -26,5 +26,17 @@ More information on [linuxhint.com](linuxhint.com)
 ```bash
 sudo apt install ssmtp -y
 ```
-## How to use?
-TODO!
+Clone scripts
+```bash
+git clone https://github.com/RocaFR/backup_script_restic.git
+```
+
+## Vars
+`AWS_ACCESS_KEY_ID` aws console > your name > security credentials  
+`AWS_SECRET_ACCESS_KEY` see above  
+`AWS_DEFAULT_REGION` aws console > s3 > buckets > aws region  
+`RESTIC_REPOSITORY` aws console > s3 > buckets > bucket name  
+`RESTIC_PASSWORD` password used when iniated restic repository  
+`recipient_mail` A recipient who will be notified if any error occurs 
+
+...WIP 🙃
