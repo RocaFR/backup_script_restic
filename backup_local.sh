@@ -3,7 +3,7 @@
 export RESTIC_PASSWORD="<restic_repository_password>"
 export RESTIC_REPOSITORY="<restic_path_to_repository>"
 recipient_mail="<error_mail_recipient>"
-backupSuccessMessage="Local backup sucessfull."
+backupSuccessMessage="Local backup sucessful."
 backupErrorMessage="Local backup error."
 logPath="/var/log/backup_restic.log"
 exitCodes=()
